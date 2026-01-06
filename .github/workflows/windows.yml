@@ -79,6 +79,7 @@ jobs:
         shell: cmd
         run: |
           build\test\selftest.exe
+          
       - name: Upload full build + re
         uses: actions/upload-artifact@v4
         with:
